@@ -1,0 +1,104 @@
+/* Write some CSS below */
+body {
+  font-family: 'Grape Nuts', cursive;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Grape Nuts', cursive;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://etudestech.com/wp-content/uploads/2022/12/codage-informatique-1536x845.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 10;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.button-blue {
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 25% 10%;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.card-white {
+  background: #efc8cb;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #efc8cb;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  color: white;
+  font-weight: bold;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.container{
+background: #e74c34;
+}
+
+.container h2{
+text-align: center;
+  color: white;
+}
+
